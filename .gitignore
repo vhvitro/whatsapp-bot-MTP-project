@@ -1,3 +1,8 @@
+venv
+.venv
+env
+.env
+ngrok.exe
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
