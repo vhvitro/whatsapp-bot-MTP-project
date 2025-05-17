@@ -206,3 +206,11 @@ This document is provided to you by Datalumina. We help data analysts, engineers
 
 ## Tutorials
 For video tutorials, visit the YouTube channel: [youtube.com/@daveebbelaar](https://www.youtube.com/@daveebbelaar).
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Configure app
+- Activate venv: python3 -m venv venv  ;  venv\Scripts/activate
+- Install requirements: pip install -r requirements
+- Run Flask: python3 run.py
+- Run ngrok: ngrok http 8000 --domain <our domain check in ngrok --> Universal Gateway --> domains
+- Go to Whatsapp --> settings (configuração) --> use the same domain in callback's url
+- Go to Webhook --> use the same domain in callback's url
